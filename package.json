@@ -1,0 +1,32 @@
+{
+  "name": "nodebb-plugin-pubgstats-vrk",
+  "version": "0.0.1",
+  "description": "nodebb-plugin-pubgstats-vrk",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/warblesync/nodebb-plugin-pubgstats-vrk"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "nodebb-plugin-pubgstats-vrk"
+  ],
+  "author": {
+    "name": "warblesync",
+    "email": "warblesync@gmail.com"
+  },
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/warblesync/nodebb-plugin-pubgstats-vrk/issues"
+  },
+  "readmeFilename": "README.md",
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  },
+  "dependencies": {
+    "cron-parser": "^2.4.1",
+    "lodash": "^4.17.4",
+    "pubg-api-redis": "^1.0.4"
+  }
+}
